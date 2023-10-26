@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fox-chicken-grain"
+version = "0.1.0"
+description = ""
+authors = ["mbw <matthew@mh-white.com>"]
+readme = "README.md"
+packages = [{include = "fox_chicken_grain"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
